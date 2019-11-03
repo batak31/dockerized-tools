@@ -12,7 +12,7 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
     apt-get install -y locales curl && \
     locale-gen en_US.UTF-8 && \
     locale && \
-    curl -SL http://download.ap.bittorrent.com/track/beta/endpoint/utserver/os/linux-x64-ubuntu-13-04 | \
+    curl -SL http://download.ap.bittorrent.com/track/beta/endpoint/utserver/os/linux-i386-ubuntu-13-04 | \
     tar vxz --strip-components 1 -C /utorrent && \
     mkdir /utorrent/settings && \
     mkdir /utorrent/data && \
